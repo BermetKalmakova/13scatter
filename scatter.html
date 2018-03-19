@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scatter plot</title>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width = "500" height = "500" id = "canvas">
+      <text x="250" y="480" font-family="sans-serif" font-size="20px" fill="red">SAT</text>
+      <text x="6" y="250" font-family="sans-serif" font-size="20px" fill="red">GPA</text>
+      <text x="440" y="480" font-family="sans-serif" font-size="20px" fill="red">1600</text>
+      <text x="6" y="50" font-family="sans-serif" font-size="20px" fill="red">100</text>
+      <line x1="40" y1="450" x2="460" y2="450" style="stroke:rgb(255,0,0);stroke-width:2" />
+      <line x1="50" y1="460" x2="50" y2="40" style="stroke:rgb(255,0,0);stroke-width:2" />
+      <line x1="450" y1="445" x2="450" y2="455" style="stroke:rgb(255,0,0);stroke-width:2" />
+      <line x1="45" y1="50" x2="55" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" />
+    </svg>
+    <br>
+    <button id = "create">Create scatter plot</button>
+    <script src = "https://d3js.org/d3.v4.min.js"></script>
+    <script src = "scatter.js"></script>
+  </body>
+</html>
+
